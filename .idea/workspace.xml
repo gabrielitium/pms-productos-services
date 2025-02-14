@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5a048a-42a6-4f68-9cc5-2730717f712c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pms/productos/config/OpenApiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pms/productos/controller/ProductosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pms/productos/service/ProductosService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pms/productos/dto/ProductoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pms/productos/dto/ProductoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pms/productos/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pms/productos/model/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pms/productos/service/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pms/productos/service/impl/ProductoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +80,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Proyectos\PaymentManager\pms-productos-services" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pms.productos.config" />
     </key>
@@ -122,7 +119,7 @@
       <updated>1739505796410</updated>
       <workItem from="1739505797543" duration="2804000" />
       <workItem from="1739508640367" duration="582000" />
-      <workItem from="1739510534359" duration="6346000" />
+      <workItem from="1739510534359" duration="7827000" />
     </task>
     <servers />
   </component>
