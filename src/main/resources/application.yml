@@ -3,7 +3,8 @@ spring:
   jpa:
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQLDialect
+        implicit_naming_strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+        format_sql: true
     show-sql: false
   datasource:
     type: com.zaxxer.hikari.HikariDataSource

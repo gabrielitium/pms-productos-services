@@ -11,14 +11,13 @@ import java.time.LocalDateTime;
 @Entity
 @Setter
 @Getter
-@AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "productos")
 public class Producto {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "idProducto", nullable = false)
+    @Column(name = "id", nullable = false)
     private Integer id;
 
     @Column(name = "clave", length = 10, nullable = false)
@@ -36,4 +35,9 @@ public class Producto {
     @Column(name = "fecha_actualizacion")
     private LocalDateTime fechaActualizacion;
 
+    public Producto(String clave, String descripcion, Double precio) {
+        this.clave = clave;
+        this.descripcion = descripcion;
+        this.precio = precio;
+    }
 }
