@@ -4,6 +4,7 @@ import com.pms.productos.dto.ProductoDTO;
 import com.pms.productos.model.Producto;
 import com.pms.productos.repository.ProductoRepository;
 import com.pms.productos.service.ProductosService;
+import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -30,6 +31,7 @@ public class ProductoServiceImpl implements ProductosService {
                 .map(p -> new ProductoDTO(p.getId(), p.getClave(), p.getDescripcion(), p.getPrecio()));
     }
 
+    @Transactional
     public Producto saveProduct(ProductoDTO productDTO) {
         Producto producto = new Producto(
                 productDTO.getClave(),
